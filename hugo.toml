@@ -1,14 +1,19 @@
-baseURL = 'https://dv.org/'
+baseURL = 'https://Danielvima.github.io/'
 languageCode = 'en-us'
 title = 'Daniel Villalobos'
 theme = "PaperMod"
 
 defaultContentLanguage = "en"
 
-[params]
 
+[params.assets]
+  favicon = "images/favicon.ico"
 
-# Menú superior
+[params.label]
+  text = "Daniel Villalobos"
+  icon = "images/logoB.png"
+  iconHeight = 40
+
 [menu]
   [[menu.main]]
     identifier = "about"
@@ -27,3 +32,12 @@ defaultContentLanguage = "en"
     name = "Contacto"
     url = "/contact/"
     weight = 3
+
+[languages]
+[languages.es]
+  languageName = "Español"
+  weight = 1
+
+[languages.en]
+  languageName = "English"
+  weight = 2
