@@ -1,0 +1,29 @@
+baseURL = 'https://dv.org/'
+languageCode = 'en-us'
+title = 'Daniel Villalobos'
+theme = "PaperMod"
+
+defaultContentLanguage = "en"
+
+[params]
+
+
+# Menú superior
+[menu]
+  [[menu.main]]
+    identifier = "about"
+    name = "Sobre mí"
+    url = "/about/"
+    weight = 1
+
+  [[menu.main]]
+    identifier = "projects"
+    name = "Proyectos"
+    url = "/projects/"
+    weight = 2
+
+  [[menu.main]]
+    identifier = "contact"
+    name = "Contacto"
+    url = "/contact/"
+    weight = 3
